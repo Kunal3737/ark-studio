@@ -95,7 +95,7 @@ ul img  {
     padding-top: 15px;
 }
 
-#cta_link   {
+#cta_2   {
     text-decoration: none;
     color: white;
     font-size: 15px;
@@ -455,7 +455,7 @@ footer  {
 
 .compitem   {
     display: inline;
-    color: white;
+    color: thistle;
     padding: 0;
     margin-left: 0;
     /* border: 2px solid white; */
@@ -479,7 +479,7 @@ footer  {
 
 .sup_item   {
     display: inline;
-    color: white;
+    color: thistle;
     padding: 0;
     margin-left: 0;
     /* border: 2px solid white; */
@@ -510,6 +510,8 @@ footer  {
     left: 547px;
     right: 470px;
 }
+
+
 
 
 
