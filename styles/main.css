@@ -59,10 +59,10 @@ ul img  {
     /* border: 2px solid red; */
 }
 
-#cta:hover  {
+.cta:hover  {
     background-color: rgba(88, 82, 82, 0.7);
 }
-#cta   {
+.cta   {
     background-color: rgba(241, 234, 234, 0.7);
     position: relative;
     /* border: solid 2px red; */
