@@ -422,11 +422,15 @@ footer_widget  {
     position: relative;
 }
 
-#widget1    {
-/*     border: brown 2px solid;
- */    box-sizing: border-box;
+.footer_widget  {
+    box-sizing: border-box;
     color: thistle;
     height: 300px;
+
+
+}
+#widget1    {
+/*      border: brown 2px solid; */
     width: 188px;
     margin-left: 200px;
     padding-top: 40px;
@@ -440,9 +444,9 @@ footer_widget  {
 #widget2    {
     margin-top: 50px;
 /*     border: brown 2px solid;
- */    box-sizing: border-box;
-    color: thistle;
-    height: 300px;
+ */ /*    box-sizing: border-box; */
+  /*   color: thistle;
+    height: 300px; */
     width: 230px;
     margin-left: 35px;
     padding-top: 40px;
@@ -464,9 +468,9 @@ footer_widget  {
 #widget3    {
     margin-top: 50px;
 /*     border: brown 2px solid;
- */    box-sizing: border-box;
+*/  /*   box-sizing: border-box;
     color: thistle;
-    height: 300px;
+    height: 300px;*/
     width: 230px;
     margin-left: 0px;
     padding-top: 40px;
@@ -489,9 +493,9 @@ footer_widget  {
 #widget4    {
     margin-top: 50px;
 /*     border: brown 2px solid;
- */    box-sizing: border-box;
+ */   /*  box-sizing: border-box;
     color: thistle;
-    height: 300px;
+    height: 300px; */
     width: 240px;
     margin-left: 0px;
     padding-top: 40px;
