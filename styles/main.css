@@ -412,7 +412,7 @@ ul img  {
 
 /* FOOTER */
 
-footer_widget  {
+.footer  {
     display: flex;
     flex-flow: row wrap;
 /*     border: blue 2px solid;
