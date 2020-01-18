@@ -511,7 +511,13 @@ footer  {
     right: 470px;
 }
 
-
+footer_widget   {
+    display: block;
+    position: relative;
+    border: blue 2px solid;
+    height: 400px;
+    width: 100%;
+}
 
 
 
