@@ -415,8 +415,8 @@ ul img  {
 footer  {
     display: flex;
     flex-flow: row wrap;
-    border: blue 2px solid; 
-    align-content: flex-start;
+/*     border: blue 2px solid; 
+ */    align-content: flex-start;
     height: 400px;
     position: relative;
 }
@@ -426,8 +426,8 @@ footer  {
     /* color: thistle; */
     height: 400px;
     position: relative;
-    border: 2px red solid;
-    background-color: rgb(34, 31, 31);
+/*     border: 2px red solid;
+ */    background-color: rgb(34, 31, 31);
     width: 100%;
 }
 #widget1    {
