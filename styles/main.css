@@ -412,11 +412,10 @@ ul img  {
 
 /* FOOTER */
 
-.footer  {
+footer  {
     display: flex;
     flex-flow: row wrap;
-/*     border: blue 2px solid;
- */    background-color: rgb(34, 31, 31);
+    border: blue 2px solid; 
     align-content: flex-start;
     height: 400px;
     position: relative;
@@ -424,8 +423,12 @@ ul img  {
 
 .footer_widget  {
     box-sizing: border-box;
-    color: thistle;
-    height: 300px;
+    /* color: thistle; */
+    height: 400px;
+    position: relative;
+    border: 2px red solid;
+    background-color: rgb(34, 31, 31);
+    width: 100%;
 }
 #widget1    {
 /*      border: brown 2px solid; */
@@ -433,6 +436,11 @@ ul img  {
     margin-left: 200px;
     padding-top: 40px;
     margin-top: 50px;
+    position: absolute;
+/*     border: 2px red solid;
+ */    box-sizing: border-box; 
+    color: thistle;
+    height: 300px;
 }
 
 #p1 {
@@ -442,17 +450,18 @@ ul img  {
 #widget2    {
     margin-top: 50px;
 /*     border: brown 2px solid;
- */ /*    box-sizing: border-box; */
-  /*   color: thistle;
-    height: 300px; */
+ */    box-sizing: border-box; 
+    color: thistle;
+    height: 300px; 
     width: 230px;
-    margin-left: 35px;
+    margin-left: 430px;
     padding-top: 40px;
 }
 
 #comp_list  {
     list-style: none;
     padding-left: 0;
+    padding-top: 10px;
 }
 
 .compitem   {
@@ -465,18 +474,21 @@ ul img  {
 
 #widget3    {
     margin-top: 50px;
-/*     border: brown 2px solid;
-*/  /*   box-sizing: border-box;
+    position: absolute;
+    top: 0;
+/*      border: brown 2px solid;
+ */   box-sizing: border-box;
     color: thistle;
-    height: 300px;*/
+    height: 300px;
     width: 230px;
-    margin-left: 0px;
+    margin-left: 650px;
     padding-top: 40px;
 }
 
 #sup_list  {
     list-style: none;
     padding-left: 0;
+    padding-top: 10px;
 }
 
 .sup_item   {
@@ -489,14 +501,16 @@ ul img  {
 
 
 #widget4    {
+    position: absolute;
+    top: 40px;
     margin-top: 50px;
 /*     border: brown 2px solid;
- */   /*  box-sizing: border-box;
+ */    box-sizing: border-box;
     color: thistle;
-    height: 300px; */
+    height: 300px; 
     width: 240px;
-    margin-left: 0px;
-    padding-top: 40px;
+    margin-left: 890px;
+    /* padding-top: 40px; */
 }
 
 #p4 {
